@@ -23,3 +23,14 @@ crunchy_bones = Restaurant.create(name: "Crunchy Bones")
 glenda_the_taco_witch = Restaurant.create(name: "Glenda the Taco Witch")
 the_three_headed_hall = Restaurant.create(name: "The Three Headed Hall")
 
+puts "Tags"
+
+spicy_tag = Tag.create(name: "spicy")
+vegan_tag = Tag.create(name: "vegan")
+witchy_tag = Tag.create(name: "witchy")
+human_free_tag = Tag.create(name: "human-free")
+fruity_tag = Tag.create(name: "fruity")
+ghouly_tag = Tag.create(name: "ghouly")
+family_style_tag = Tag.create(name: "family style")
+farm_to_table_tag = Tag.create(name: "farm to table")
+savory = Tag.create(name: "savory")
