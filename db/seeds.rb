@@ -33,8 +33,13 @@ fruity_tag = Tag.create(name: "fruity")
 ghouly_tag = Tag.create(name: "ghouly")
 family_style_tag = Tag.create(name: "family style")
 farm_to_table_tag = Tag.create(name: "farm to table")
-savory = Tag.create(name: "savory")
-skullgarden = Restaurant.create()
+savory_tag = Tag.create(name: "savory")
+sweet_tag = Tag.create(name: "sweet")
+trendy_tag = Tag.create(name: "trending")
+bloody_tag = Tag.create(name: "bloody")
+magic_tag = Tag.create(name: "magic")
+
+
 
 puts "Dishes for McGhouls"
 bloody_salisbury = Dish.create(name: "Bloody Salisbury Steak", restaurant_id: mcghouls.id)
@@ -49,12 +54,6 @@ ear_crumble = Dish.create(name: "Ear Crumble", restaurant_id: mcghouls.id)
 toe_salad = Dish.create(name: "Toe Salad", restaurant_id: mcghouls.id)
 
 
-
-
-
-
-
-
 puts "Dishes for WitchyWendy's"
 poisoned_entrails = Dish.create(name: "Poisoned Entrails", restaurant_id: witchy_wendys.id)
 fenny_snake = Dish.create(name: "Fillet of Fenny Snake", restaurant_id: witchy_wendys.id)
@@ -67,9 +66,125 @@ blind_worm_sting = Dish.create(name: "Blind-Worm's Sting", restaurant_id: witchy
 lizard_leg = Dish.create(name: "Lizard's Leg", restaurant_id: witchy_wendys.id)
 owlet_wing = Dish.create(name: "Owlet's Wing", restaurant_id: witchy_wendys.id)
 
+puts "Dishes for Zombie Quicke Mart"
+hot_dog = Dish.create(name:"Hot Dog", restaurant_id: zombie_quickie_mart.id)
+chicken_leg = Dish.create(name:"Chicken Leg", restaurant_id: zombie_quickie_mart.id)
+blood_slurpee = Dish.create(name:"Blood Slurpee", restaurant_id: zombie_quickie_mart.id)
+popcorn_bones = Dish.create(name:"Popcorn Bones", restaurant_id: zombie_quickie_mart.id)
+blt_sandwitch = Dish.create(name:"BLT Sandwich", restaurant_id: zombie_quickie_mart.id)
+human_brains_stew = Dish.create(name:"Human Brain Stew", restaurant_id: zombie_quickie_mart.id)
+liver_squash = Dish.create(name:"Liver Squash", restaurant_id: zombie_quickie_mart.id)
+human_pie = Dish.create(name:"Human Pie", restaurant_id: zombie_quickie_mart.id)
+green_beans = Dish.create(name:"Carmelized Green Beens", restaurant_id: zombie_quickie_mart.id)
+rotten_veg = Dish.create(name:"Rotten Vegetable Surprise", restaurant_id: zombie_quickie_mart.id)
 
 
+puts "Dishes for Feeling Witchy"
+love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+bottle_fish_stew = Dish.create(name:"Bottle Fish Stew", restaurant_id: feeling_witchy.id)
+dangerous_eel = Dish.create(name:"Dangerous Eel", restaurant_id: feeling_witchy.id)
+sushi_of_the_east = Dish.create(name:"Sushi of the East", restaurant_id: feeling_witchy.id)
+pickled_eye = Dish.create(name:"Pickled Eye", restaurant_id: feeling_witchy.id)
+butterfly_salad = Dish.create(name:"Butterfly Salad", restaurant_id: feeling_witchy.id)
+familiar_sandwich = Dish.create(name:"Familiar Sandwich", restaurant_id: feeling_witchy.id)
+cauldron_surprise= Dish.create(name:"Cauldron Surprise", restaurant_id: feeling_witchy.id)
+henchman_steak = Dish.create(name:"Henchmen Steak", restaurant_id: feeling_witchy.id)
+witches_toe = Dish.create(name:"Witches Toe", restaurant_id: feeling_witchy.id)
 
+# frankenweenie_stackhouse 
+# puts "Dishes for Frankenweenie Steakhouse"
+# undead_steak = Dish.create(name:"Undead Steak", restaurant_id: frankenweenie_stackhouse.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: frankenweenie_stackhouse.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: frankenweenie_stackhouse.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: frankenweenie_stackhouse.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: frankenweenie_stackhouse.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: frankenweenie_stackhouse.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: frankenweenie_stackhouse.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: frankenweenie_stackhouse.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: frankenweenie_stackhouse.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: frankenweenie_stackhouse.id)
+
+
+# spells_snacks_kaboom
+# puts "Dishes for Spells Snacks Kaboom"
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+
+
+# eat_your_mummy
+# puts "Dishes for Eat Your Mummy"
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+
+
+# gingerbread_haus
+# puts "Dishes for Gingerbread Haus"
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+
+
+# crunchy_bones
+# puts "Dishes for Crunchy Bones"
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+
+# glenda_the_taco_witch
+# puts "Dishes for Glenda the Taco Witch"
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+
+# the_three_headed_hall 
+# puts "Dishes for The Three Headed Hall"
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
+# love_potion_09 = Dish.create(name:"Love Potion #9", restaurant_id: feeling_witchy.id)
 
 
 #Pumpkin_Bumpkin - farm to table
