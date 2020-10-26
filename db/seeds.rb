@@ -48,13 +48,6 @@ brain_soup = Dish.create(name: "Brain Soup", restaurant_id: mcghouls.id)
 ear_crumble = Dish.create(name: "Ear Crumble", restaurant_id: mcghouls.id)
 toe_salad = Dish.create(name: "Toe Salad", restaurant_id: mcghouls.id)
 
-
-
-
-
-
-
-
 puts "Dishes for WitchyWendy's"
 poisoned_entrails = Dish.create(name: "Poisoned Entrails", restaurant_id: witchy_wendys.id)
 fenny_snake = Dish.create(name: "Fillet of Fenny Snake", restaurant_id: witchy_wendys.id)
@@ -67,6 +60,39 @@ blind_worm_sting = Dish.create(name: "Blind-Worm's Sting", restaurant_id: witchy
 lizard_leg = Dish.create(name: "Lizard's Leg", restaurant_id: witchy_wendys.id)
 owlet_wing = Dish.create(name: "Owlet's Wing", restaurant_id: witchy_wendys.id)
 
+puts "Dishes for Skull Garden"
+boney_soup = Dish.create(name: "Boney Soup", restaurant_id: skullgarden.id)
+dried_maggots = Dish.create(name: "Dried Maggots", restaurant_id: skullgarden.id)
+bainberry = Dish.create(name: "Bainberry", restaurant_id: skullgarden.id) 
+bee_brain = Dish.create(name: "Bee's Brain", restaurant_id: skullgarden.id)
+cobweb_pudding = Dish.create(name: "Cobweb Pudding", restaurant_id: skullgarden.id)
+cockroach_shells = Dish.create(name: "Cockroach Shells", restaurant_id: skullgarden.id)
+dragonwort_soup = Dish.create(name: "Dragonwort Soup", restaurant_id: skullgarden.id)
+feather_crow_pie = Dish.create(name: "Feather Crow Pie", restaurant_id: skullgarden.id)
+henbane_souffle = Dish.create(name: "Henbane Souffle", restaurant_id: skullgarden.id)
+graveyard_bone_stew = Dish.create(name: "Graveyard Bone Stew", restaurant_id: skullgarden.id)
+
+puts "Dishes for Dracula Den"
+blood_soup = Dish.create(name: "Blood Soup", restaurant_id: draculaden.id)
+raw_stead = Dish.create(name: "Raw Steak", restaurant_id: draculaden.id)
+nightshade_parfait = Dish.create(name: "Nightshade Parfait", restaurant_id: draculaden.id) 
+foxglove_stew = Dish.create(name: "Foxglove Stew", restaurant_id: draculaden.id)
+darknut_pudding = Dish.create(name: "Darknut Pudding", restaurant_id: draculaden.id)
+firefly_shells = Dish.create(name: "Firefly Shells", restaurant_id: draculaden.id)
+mandrake_truffles = Dish.create(name: "Mandrake Truffles", restaurant_id: draculaden.id)
+moonrock_platter = Dish.create(name: "Moonrock Platter", restaurant_id: draculaden.id)
+nettleweed_salad = Dish.create(name: "Nettleweed Salad", restaurant_id: draculaden.id)
+ninetailed_mushroom = Dish.create(name: "Ninetailed Mushroom Bolognese", restaurant_id: draculaden.id)
+
+puts "Dishes for Greenwitch"
+honeysuckle_parfait= Dish.create(name: "Honeysuckle Parfait", restaurant_id: draculaden.id)
+
+# puts "Dishes for Fairy's Delight"
+# puts "Dishes for Werewolf Steak House"
+# puts "Dishes for Pumpkin Bumpkin Farmhouse"
+# puts "Dishes for Haus of Elixirs"
+# puts "Dishes for Cauldron Co-op"
+# puts "Dishes for Elfy King "
 
 
 
